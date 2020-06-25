@@ -1,20 +1,23 @@
-# Careerjet API Client Python
-Official Python interface to [Careerjet](http://www.careerjet.co.uk)'s  public search API
+# Careerjet API
+Unofficial Python interface to [Careerjet](http://www.careerjet.co.uk)'s  public search API
+> Here the [official](https://github.com/careerjet/careerjet-api-client-python) working only in Python 2
+
+I've made this version since they don't seem to be willing to update their code. Also, the code base is in Python2 I've made the change to Python3.
 
 ## Installation
 
 Install using pip:
 
-    pip install careerjet_api_client
+    pip install careerjet_api
 
 and then to see docs:
 
-    pydoc careerjet_api_client
+    pydoc careerjet_api
 
 ## Usage
 
 ```python
-from careerjet_api_client import CareerjetAPIClient
+from careerjet_api import CareerjetAPIClient
 
 cj  =  CareerjetAPIClient("en_GB");
 
@@ -134,29 +137,4 @@ Available locale codes are:
     :vi_VN  => 'http://www.careerjet.com.vn'              ,
     :zh_CN  => 'http://www.careerjet.cn'                  ,
 ```
-
-## License
-
-Copyright (c) 2015 Careerjet Ltd
-
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
