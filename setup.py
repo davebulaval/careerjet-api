@@ -21,7 +21,12 @@ def main():
           # author_email='',
           license='MIT',
           packages=['careerjet_api'],
+          python_requires='>=3.6.1',
           install_requires=['requests'],
           long_description=readme,
           long_description_content_type='text/markdown',
           zip_safe=False)
+
+
+if __name__ == '__main__':
+    main()
