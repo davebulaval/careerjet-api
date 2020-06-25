@@ -7,6 +7,6 @@ setup(name='careerjet_api',
       author='Davebulaval',
       # author_email='',
       license='MIT',
-      packages=['careerjet_api_python3'],
+      packages=['careerjet_api'],
       install_requires=['requests'],
       zip_safe=False)
