@@ -14,7 +14,7 @@ def get_readme():
 def main():
     readme = get_readme()
     setup(name='careerjet_api',
-          version='3.1',
+          version='3.2',
           description='Python interface to Careerjet\'s public search API',
           url='https://github.com/davebulaval/careerjet-api',
           author='davebulaval',
