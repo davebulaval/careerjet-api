@@ -1,12 +1,12 @@
 from setuptools import setup
 
 setup(name='careerjet_api',
-      version='3.0.1',
+      version='3.1',
       description='Python interface to Careerjet\'s public search API',
-      url='http://github.com/careerjet/careerjet-api-client-python',
-      author='Careerjet',
-      #author_email='',
+      url='https://github.com/davebulaval/careerjet-api',
+      author='Davebulaval',
+      # author_email='',
       license='MIT',
-      packages=['careerjet_api'],
+      packages=['careerjet_api_python3'],
       install_requires=['requests'],
       zip_safe=False)
